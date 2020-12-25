@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: b9f3b088b52c63046aaea7f32d3c09d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1163678628892474616
+    second: tiles_mountain_peak_forest_conifer_green_0
+  - first:
+      213: 131581023013374387
+    second: tiles_mountain_peak_forest_conifer_green_1
+  - first:
+      213: -553697705847789008
+    second: tiles_mountain_peak_forest_conifer_green_2
+  - first:
+      213: 3990047963442664769
+    second: tiles_mountain_peak_forest_conifer_green_3
+  - first:
+      213: 9214694200014242160
+    second: tiles_mountain_peak_forest_conifer_green_4
+  - first:
+      213: 5571079155967830082
+    second: tiles_mountain_peak_forest_conifer_green_5
+  - first:
+      213: 8359329331187427040
+    second: tiles_mountain_peak_forest_conifer_green_6
+  - first:
+      213: 723858712284176695
+    second: tiles_mountain_peak_forest_conifer_green_7
+  - first:
+      213: -751226317694692385
+    second: tiles_mountain_peak_forest_conifer_green_8
+  - first:
+      213: 7758406408988896054
+    second: tiles_mountain_peak_forest_conifer_green_9
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tiles_mountain_peak_forest_conifer_green_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e22682744f94384a8d6428c072f979c
+      internalID: 1163678628892474616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_mountain_peak_forest_conifer_green_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f791e7857027c954283909e862dbfa40
+      internalID: 131581023013374387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_mountain_peak_forest_conifer_green_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925257b482ab98242b25e74f2a8c2b7b
+      internalID: -553697705847789008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_mountain_peak_forest_conifer_green_3
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6942ebc908fcfb48a8a37580a69896a
+      internalID: 3990047963442664769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_mountain_peak_forest_conifer_green_4
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5820ab82f682e7b459c27e6968a152c8
+      internalID: 9214694200014242160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_mountain_peak_forest_conifer_green_5
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0c60cde837d57419b46cad139cd76d
+      internalID: 5571079155967830082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_mountain_peak_forest_conifer_green_6
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0ec6c3ea7815f44be404f723d24346
+      internalID: 8359329331187427040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_mountain_peak_forest_conifer_green_7
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75bdc735e1f80a458a3ef0d3662cf76
+      internalID: 723858712284176695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_mountain_peak_forest_conifer_green_8
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaeeacb0696c32478cb638f91e6a2af
+      internalID: -751226317694692385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_mountain_peak_forest_conifer_green_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7e864036128f2438faae6138c85f05
+      internalID: 7758406408988896054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1423 @@
+fileFormatVersion: 2
+guid: 445c20acbed2aff488c832853b3a2951
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1837861515823346889
+    second: overlays_river_0
+  - first:
+      213: 8037154855476617053
+    second: overlays_river_1
+  - first:
+      213: 5400668982549528069
+    second: overlays_river_2
+  - first:
+      213: 6901412723638699757
+    second: overlays_river_3
+  - first:
+      213: -4192912850474953283
+    second: overlays_river_4
+  - first:
+      213: 2414541308607318056
+    second: overlays_river_5
+  - first:
+      213: -8172701189799699145
+    second: overlays_river_6
+  - first:
+      213: -6826756344492229118
+    second: overlays_river_7
+  - first:
+      213: 9195508444357952571
+    second: overlays_river_8
+  - first:
+      213: 1075274067372591182
+    second: overlays_river_9
+  - first:
+      213: 813603269457149533
+    second: overlays_river_10
+  - first:
+      213: -5997922868470005914
+    second: overlays_river_11
+  - first:
+      213: -8120472517144371936
+    second: overlays_river_12
+  - first:
+      213: 2780916237444141851
+    second: overlays_river_13
+  - first:
+      213: 3249018280172523942
+    second: overlays_river_14
+  - first:
+      213: 6996105913328462184
+    second: overlays_river_15
+  - first:
+      213: 6675714465227411688
+    second: overlays_river_16
+  - first:
+      213: 7091576889272109069
+    second: overlays_river_17
+  - first:
+      213: 4031358831364127515
+    second: overlays_river_18
+  - first:
+      213: -35064208230642170
+    second: overlays_river_19
+  - first:
+      213: 6706008025755215559
+    second: overlays_river_20
+  - first:
+      213: 952831724005141320
+    second: overlays_river_21
+  - first:
+      213: -3608446602631778452
+    second: overlays_river_22
+  - first:
+      213: 48172067108173432
+    second: overlays_river_23
+  - first:
+      213: 5857476116796051530
+    second: overlays_river_24
+  - first:
+      213: 7030139400747733532
+    second: overlays_river_25
+  - first:
+      213: -1462193419256629375
+    second: overlays_river_26
+  - first:
+      213: -4928151460728572538
+    second: overlays_river_27
+  - first:
+      213: 8565960110969449500
+    second: overlays_river_28
+  - first:
+      213: 4036496563338944755
+    second: overlays_river_29
+  - first:
+      213: -5274662433660018804
+    second: overlays_river_30
+  - first:
+      213: 8165714416831922367
+    second: overlays_river_31
+  - first:
+      213: -2970594537735853355
+    second: overlays_river_32
+  - first:
+      213: 4834006195306995791
+    second: overlays_river_33
+  - first:
+      213: 7770726786044551726
+    second: overlays_river_34
+  - first:
+      213: -6186796691452119156
+    second: overlays_river_35
+  - first:
+      213: 3869799628552288961
+    second: overlays_river_36
+  - first:
+      213: 4579614651476190157
+    second: overlays_river_37
+  - first:
+      213: -7195583406469459148
+    second: overlays_river_38
+  - first:
+      213: -5709293450822919459
+    second: overlays_river_39
+  - first:
+      213: -2189017661453760202
+    second: overlays_river_40
+  - first:
+      213: -3187656074658976126
+    second: overlays_river_41
+  - first:
+      213: -313720412187033605
+    second: overlays_river_42
+  - first:
+      213: 4827729693750542594
+    second: overlays_river_43
+  - first:
+      213: 2822866190504477537
+    second: overlays_river_44
+  - first:
+      213: 8494167584847460532
+    second: overlays_river_45
+  - first:
+      213: -9117331687400157410
+    second: overlays_river_46
+  - first:
+      213: 1571217376592574666
+    second: overlays_river_47
+  - first:
+      213: 2104533597644950262
+    second: overlays_river_48
+  - first:
+      213: 6750490477379590762
+    second: overlays_river_49
+  - first:
+      213: -4714254064248722957
+    second: overlays_river_50
+  - first:
+      213: 2796830354923002557
+    second: overlays_river_51
+  - first:
+      213: 1345089070337392005
+    second: overlays_river_52
+  - first:
+      213: -4746746028853049898
+    second: overlays_river_53
+  - first:
+      213: -5943033570613111956
+    second: overlays_river_54
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: overlays_river_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c108c5a65031a44a844278fdc465599
+      internalID: -1837861515823346889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c109f4b4c0c13642bccc0c66ce33e04
+      internalID: 8037154855476617053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a47069034e6e748bf01d8481553126
+      internalID: 5400668982549528069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_3
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b794fccf0f5bb9943a70163d8e5d8135
+      internalID: 6901412723638699757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_4
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501710e2ec03bb14193f56c3355fd277
+      internalID: -4192912850474953283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_5
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97955d5f8c002d54685f3592428d8bb5
+      internalID: 2414541308607318056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_6
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f497df54039c39a4897ef287d9fee81f
+      internalID: -8172701189799699145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_7
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03a63ebec1cbc9479dd3b01a3e00c15
+      internalID: -6826756344492229118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_8
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871a7c47a26ad814abff2e1116784ea5
+      internalID: 9195508444357952571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74100492696e2944eb42a1f336db8de0
+      internalID: 1075274067372591182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79129de1e607c84a9b41620ad3c30ed
+      internalID: 813603269457149533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610af8a89d2bb3749be03856336efd4e
+      internalID: -5997922868470005914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_12
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b37716ae85dbb4380519eae27849af
+      internalID: -8120472517144371936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_13
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d0e825e7fe8e644a2c23f7bb4d4db6
+      internalID: 2780916237444141851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_14
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85d64fa269eccd4bbe40399b1ec233e
+      internalID: 3249018280172523942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_15
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcd4fb6d9ab396409cd193343d9e484
+      internalID: 6996105913328462184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_16
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b966ae186ecbc42be99b69b20ede34
+      internalID: 6675714465227411688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_17
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7b2c92f0744cb43b0cf8c433034241
+      internalID: 7091576889272109069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ceb5f66a4f7e3c45bd2281fd253c1fd
+      internalID: 4031358831364127515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17e46e903bccd543a642e225b593e4b
+      internalID: -35064208230642170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_20
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e83a1be258af97429c4ab73ad9c56e5
+      internalID: 6706008025755215559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_21
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32808060c10a1ea4097979d9d3b65933
+      internalID: 952831724005141320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_22
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1348d2697b691a94a943a3ff7625769a
+      internalID: -3608446602631778452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_23
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddcd2c9448cfa1439bb88c3b4c2f3ea
+      internalID: 48172067108173432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_24
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa05c1709ccc59c4a96e101d4cd1cebb
+      internalID: 5857476116796051530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_25
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a6300bba480ab42bd8d265dd168a8d
+      internalID: 7030139400747733532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_26
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31de6d4a4d21e3b4e838fcc95499f905
+      internalID: -1462193419256629375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d871911d8c31a7243b1b329b1400dd45
+      internalID: -4928151460728572538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_28
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21c97f15a7378e47b2fc6259e01694a
+      internalID: 8565960110969449500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_29
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259ddfc7388348e40aced3ea8be49445
+      internalID: 4036496563338944755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_30
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e780a8fe03b4cf4b9676d2018ab45c8
+      internalID: -5274662433660018804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_31
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b839dc915b8897e4eb2edb376eedd4d6
+      internalID: 8165714416831922367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_32
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2238fe365bcd1a14fb6979297660f12a
+      internalID: -2970594537735853355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_33
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7a1a6e3c4fdab4bbd9e1b084ffadf3
+      internalID: 4834006195306995791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_34
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b6071237a28d541ac91ae7ec7b0925
+      internalID: 7770726786044551726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_35
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96cecee8c4784145ba7c593777c41c0
+      internalID: -6186796691452119156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072e5c9d77bf0ae4fb9b2c7cd077091f
+      internalID: 3869799628552288961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_37
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b4de5b8397abe4dbe5bb08e985471e
+      internalID: 4579614651476190157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b749a831b139c7248afcd001c036f0fe
+      internalID: -7195583406469459148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_39
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11250bcafea45540bac7db41854bb2d
+      internalID: -5709293450822919459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_40
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743e60eaceba3754f8c2a0f37e25810b
+      internalID: -2189017661453760202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_41
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c6c1b0c8eb0da49af397afa81f72db
+      internalID: -3187656074658976126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_42
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb193d82dece0c4d8afbcd7c3345d53
+      internalID: -313720412187033605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_43
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404a1af3f3ed99841a587ec3d64212db
+      internalID: 4827729693750542594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_44
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5effc82c58527994cae3128e9640bc16
+      internalID: 2822866190504477537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf23081556ca5847afe718af27c61a5
+      internalID: 8494167584847460532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_46
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc1287f3714211458e0eee693678b4a
+      internalID: -9117331687400157410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b4bd61066354544b2c8c527e0a39af
+      internalID: 1571217376592574666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_48
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7334ffa1123a943a4c7b8bf35987a5
+      internalID: 2104533597644950262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_49
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed78064364c7042479d397b47649ea15
+      internalID: 6750490477379590762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_50
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c002a1dc114eed14c9d4971fd6e5828a
+      internalID: -4714254064248722957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_51
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffcbce9deb088e408650f7fe5277704
+      internalID: 2796830354923002557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_52
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ab50906649c7d419895a14d3dcca6b
+      internalID: 1345089070337392005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_53
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26df9500ee54ccb43a7a20169bbe74c7
+      internalID: -4746746028853049898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_river_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2701b6e05bb2f1840bd73d5eab7c3b20
+      internalID: -5943033570613111956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

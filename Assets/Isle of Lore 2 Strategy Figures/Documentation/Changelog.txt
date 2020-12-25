@@ -1,0 +1,7 @@
+// DD.MM.YY
+08.02.20:	0:	Release
+18.04.20:	1:	added 16 new figures (Plague Doctor, King, Frogman, Merfolk, Boat, Trading Ship, Warship, Pirate Ship, Cargo, Jellyfish, Fish, Turtle, Whale, Shark, Crab, Crocodile)
+				moved sources out of showcase file into own source files
+				restructured directory and file naming
+				fixed white border and its positioning of the Bear figure
+				updated the readme file to reflect the changes

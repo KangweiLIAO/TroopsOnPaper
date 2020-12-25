@@ -1,0 +1,1423 @@
+fileFormatVersion: 2
+guid: 919810c88fa90b5458865d779952f357
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 183573466261790316
+    second: overlays_road_0
+  - first:
+      213: -6655943400958261752
+    second: overlays_road_1
+  - first:
+      213: 6916458556180128209
+    second: overlays_road_2
+  - first:
+      213: -3711607238091898850
+    second: overlays_road_3
+  - first:
+      213: 3635230413238838829
+    second: overlays_road_4
+  - first:
+      213: 7346303262457856300
+    second: overlays_road_5
+  - first:
+      213: 8219889422349794694
+    second: overlays_road_6
+  - first:
+      213: 6643308570709046021
+    second: overlays_road_7
+  - first:
+      213: 1729700351518286854
+    second: overlays_road_8
+  - first:
+      213: -9185111891838798732
+    second: overlays_road_9
+  - first:
+      213: 5373900261104018047
+    second: overlays_road_10
+  - first:
+      213: -5243274761064176983
+    second: overlays_road_11
+  - first:
+      213: -377525558996476638
+    second: overlays_road_12
+  - first:
+      213: -8626510441271344032
+    second: overlays_road_13
+  - first:
+      213: 5013610477536108949
+    second: overlays_road_14
+  - first:
+      213: 1412386453052398910
+    second: overlays_road_15
+  - first:
+      213: -7305861598572767984
+    second: overlays_road_16
+  - first:
+      213: -5992700275466443689
+    second: overlays_road_17
+  - first:
+      213: -3525292688078383142
+    second: overlays_road_18
+  - first:
+      213: -7699490650831213809
+    second: overlays_road_19
+  - first:
+      213: -1048562210850492030
+    second: overlays_road_20
+  - first:
+      213: -7860532323679669207
+    second: overlays_road_21
+  - first:
+      213: -7597404860490685158
+    second: overlays_road_22
+  - first:
+      213: -2661175760996300902
+    second: overlays_road_23
+  - first:
+      213: -2177905053821293213
+    second: overlays_road_24
+  - first:
+      213: -5483169751914143718
+    second: overlays_road_25
+  - first:
+      213: 2163256439204465422
+    second: overlays_road_26
+  - first:
+      213: 5947591007232338715
+    second: overlays_road_27
+  - first:
+      213: -3800568726241285388
+    second: overlays_road_28
+  - first:
+      213: 8822379209624335844
+    second: overlays_road_29
+  - first:
+      213: 2743206773373453013
+    second: overlays_road_30
+  - first:
+      213: -6248461478039930313
+    second: overlays_road_31
+  - first:
+      213: 6438141264346485577
+    second: overlays_road_32
+  - first:
+      213: 1168828308019956603
+    second: overlays_road_33
+  - first:
+      213: -4473675566894452838
+    second: overlays_road_34
+  - first:
+      213: -7779479225778861441
+    second: overlays_road_35
+  - first:
+      213: -5237341982183342276
+    second: overlays_road_36
+  - first:
+      213: -8879069881508380163
+    second: overlays_road_37
+  - first:
+      213: -6927481602819891213
+    second: overlays_road_38
+  - first:
+      213: -5548060313160171427
+    second: overlays_road_39
+  - first:
+      213: -8413991738527300618
+    second: overlays_road_40
+  - first:
+      213: 3093952618732259546
+    second: overlays_road_41
+  - first:
+      213: 7680303327350448573
+    second: overlays_road_42
+  - first:
+      213: -1286094921188386085
+    second: overlays_road_43
+  - first:
+      213: -2440297066172035689
+    second: overlays_road_44
+  - first:
+      213: 8584464127331291416
+    second: overlays_road_45
+  - first:
+      213: 8531379204285938614
+    second: overlays_road_46
+  - first:
+      213: 1741280616503911232
+    second: overlays_road_47
+  - first:
+      213: 3427415962965674322
+    second: overlays_road_48
+  - first:
+      213: 2399297396582264699
+    second: overlays_road_49
+  - first:
+      213: 4119130586260714560
+    second: overlays_road_50
+  - first:
+      213: -135239621556428315
+    second: overlays_road_51
+  - first:
+      213: -6488387567030593862
+    second: overlays_road_52
+  - first:
+      213: -5428179285308850434
+    second: overlays_road_53
+  - first:
+      213: 498358954098256530
+    second: overlays_road_54
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: overlays_road_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e48c663083e3e4f93677aa76482fd1
+      internalID: 183573466261790316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2d6876556b8714fb8f0a99eb5ed59c
+      internalID: -6655943400958261752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f422b8e79f7664eab84ec52e07b0ab
+      internalID: 6916458556180128209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_3
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffbb3369dce48f42a4de83f165b2933
+      internalID: -3711607238091898850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_4
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b99a1a210e8ea843953986a83144a2a
+      internalID: 3635230413238838829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_5
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1c466379ada8e48a98ceeb3a053702
+      internalID: 7346303262457856300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_6
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f421abefed6aa4b9f184c87d9dc65b
+      internalID: 8219889422349794694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_7
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fd059339738594b8b6a1b3990e519f
+      internalID: 6643308570709046021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_8
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1838
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938fc521a7271c74b8ae9f012f822b48
+      internalID: 1729700351518286854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38926c059fc18e4f9092240df91e307
+      internalID: -9185111891838798732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64188945f8670294a9e620855c8dc075
+      internalID: 5373900261104018047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ded9d4e81435ad4b908897d6c95dac3
+      internalID: -5243274761064176983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_12
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a26258baa96c604fb025d9a5ef16909
+      internalID: -377525558996476638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_13
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd314eaf15b0fa245aa4d0d84df019b7
+      internalID: -8626510441271344032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_14
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4076ffbbbf05c214094c617bff668b8d
+      internalID: 5013610477536108949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_15
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f0a36cb2603e54faf14e188065bc5b
+      internalID: 1412386453052398910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_16
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ece60e21aec0d4bb5594a2b3ab05bd
+      internalID: -7305861598572767984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_17
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1628
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c224a9b3dcaa54fbd7a85e94b97c3d
+      internalID: -5992700275466443689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1f6aaed83c729489127a8b8dd39874
+      internalID: -3525292688078383142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720031c4d55eacf4392884e0d98780e6
+      internalID: -7699490650831213809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_20
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfb40ace2959b342ae10247e4f89040
+      internalID: -1048562210850492030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_21
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b00e0beecb02d4ca912070f599e6d0
+      internalID: -7860532323679669207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_22
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d96ed7967f6f8540b4c74d2a84d4616
+      internalID: -7597404860490685158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_23
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef1ae430f03eed4e831a66d431cd7f9
+      internalID: -2661175760996300902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_24
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904c4d772d3765245b417232c0979035
+      internalID: -2177905053821293213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_25
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208939d32d9f79f4aa469a9c7ea9afec
+      internalID: -5483169751914143718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_26
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1418
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f7dd306eaa41d4f9723e9d5ed91566
+      internalID: 2163256439204465422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cc461f85fd0034aba33f6e5020648d
+      internalID: 5947591007232338715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_28
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cef6eada7157641b6f5c2f7b548dcb
+      internalID: -3800568726241285388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_29
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39570817c7741cc459da6784454b4ff3
+      internalID: 8822379209624335844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_30
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b4a14cbe84964428884d84d0c94594
+      internalID: 2743206773373453013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_31
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d864d361d2e3944fbff7ccb41d1553e
+      internalID: -6248461478039930313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_32
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8527742d7cb7fb4c9a3ff4de370dec1
+      internalID: 6438141264346485577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_33
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6b644815f558448bb75005463ff7c3
+      internalID: 1168828308019956603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_34
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880f398965d97784c8b0790a291045ed
+      internalID: -4473675566894452838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_35
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1208
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d942ad2c8964b459d28e2f2c7123a6
+      internalID: -7779479225778861441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140db4086f6b4924fb56fdf07967190d
+      internalID: -5237341982183342276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_37
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecb6f30a3652654991b6368be5466d6
+      internalID: -8879069881508380163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc253555418f1334f8fd43294fdcc8c1
+      internalID: -6927481602819891213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_39
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c79f7725c8f7f84eb88399d708366da
+      internalID: -5548060313160171427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_40
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fad0a38b419e74b8da9c102a7fb5ca
+      internalID: -8413991738527300618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_41
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9f82325eaa8214684a462e9fa571db
+      internalID: 3093952618732259546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_42
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8ef9d4a78999d4dbacffe3dcb16dcb
+      internalID: 7680303327350448573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_43
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fae0086a56452a48a688ced66d19682
+      internalID: -1286094921188386085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_44
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 998
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0f5a433fc720a4c8e7039f535b2647
+      internalID: -2440297066172035689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05973d1b9cb5ca1438cd63ae3ec98b16
+      internalID: 8584464127331291416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_46
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332a7268b68372747b8c0200ace1551a
+      internalID: 8531379204285938614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e3bfd3d847f4f4d85e9e1095eed49a
+      internalID: 1741280616503911232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_48
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38f98901ed1d17479babf1a38682d97
+      internalID: 3427415962965674322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_49
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7bad83381fcb7408946b0bff05013d
+      internalID: 2399297396582264699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_50
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea77fb8b582c5cd4cb6ee052e2608172
+      internalID: 4119130586260714560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_51
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02fbe5b5462c3e4d801b2deff64ef4d
+      internalID: -135239621556428315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_52
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2136163b21bd33846940e7b1f49101a2
+      internalID: -6488387567030593862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_53
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 788
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6429ee7f55cec40b5a045a3c717926
+      internalID: -5428179285308850434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overlays_road_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1f0f39d319410449d376cf33e83379
+      internalID: 498358954098256530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

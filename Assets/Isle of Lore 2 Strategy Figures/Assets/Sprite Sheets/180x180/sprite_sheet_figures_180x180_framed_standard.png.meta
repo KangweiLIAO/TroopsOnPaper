@@ -1,0 +1,2432 @@
+fileFormatVersion: 2
+guid: fd316e7b9a3e17f4d87b2cde6c9cde2b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7073139611689846797
+    second: sprite_sheet_figures_180x180_framed_standard_0
+  - first:
+      213: -2929538872658824411
+    second: sprite_sheet_figures_180x180_framed_standard_1
+  - first:
+      213: -1051087654009271152
+    second: sprite_sheet_figures_180x180_framed_standard_2
+  - first:
+      213: -5242696797180874497
+    second: sprite_sheet_figures_180x180_framed_standard_3
+  - first:
+      213: -5691744452854981807
+    second: sprite_sheet_figures_180x180_framed_standard_4
+  - first:
+      213: -7621993451435799835
+    second: sprite_sheet_figures_180x180_framed_standard_5
+  - first:
+      213: -3983472224214592819
+    second: sprite_sheet_figures_180x180_framed_standard_6
+  - first:
+      213: 615340633046424958
+    second: sprite_sheet_figures_180x180_framed_standard_7
+  - first:
+      213: -6581542283613387931
+    second: sprite_sheet_figures_180x180_framed_standard_8
+  - first:
+      213: 3168623992173147484
+    second: sprite_sheet_figures_180x180_framed_standard_9
+  - first:
+      213: -8961457713751778688
+    second: sprite_sheet_figures_180x180_framed_standard_10
+  - first:
+      213: 4139906678171470366
+    second: sprite_sheet_figures_180x180_framed_standard_11
+  - first:
+      213: 8020080093969744153
+    second: sprite_sheet_figures_180x180_framed_standard_12
+  - first:
+      213: 6777337409098636062
+    second: sprite_sheet_figures_180x180_framed_standard_13
+  - first:
+      213: -7938219397820983964
+    second: sprite_sheet_figures_180x180_framed_standard_14
+  - first:
+      213: -3989426910569750256
+    second: sprite_sheet_figures_180x180_framed_standard_15
+  - first:
+      213: 3836906404415947520
+    second: sprite_sheet_figures_180x180_framed_standard_16
+  - first:
+      213: 1883838086094678727
+    second: sprite_sheet_figures_180x180_framed_standard_17
+  - first:
+      213: -7462426734921151476
+    second: sprite_sheet_figures_180x180_framed_standard_18
+  - first:
+      213: 5698461203186519566
+    second: sprite_sheet_figures_180x180_framed_standard_19
+  - first:
+      213: -4922843995138135452
+    second: sprite_sheet_figures_180x180_framed_standard_20
+  - first:
+      213: 6997288287915759693
+    second: sprite_sheet_figures_180x180_framed_standard_21
+  - first:
+      213: 7415096809177041502
+    second: sprite_sheet_figures_180x180_framed_standard_22
+  - first:
+      213: -2720355116659188729
+    second: sprite_sheet_figures_180x180_framed_standard_23
+  - first:
+      213: -8347903141634025229
+    second: sprite_sheet_figures_180x180_framed_standard_24
+  - first:
+      213: -7971389275705523218
+    second: sprite_sheet_figures_180x180_framed_standard_25
+  - first:
+      213: -5001536160620617416
+    second: sprite_sheet_figures_180x180_framed_standard_26
+  - first:
+      213: -8103294171782398703
+    second: sprite_sheet_figures_180x180_framed_standard_27
+  - first:
+      213: 2494215222623566405
+    second: sprite_sheet_figures_180x180_framed_standard_28
+  - first:
+      213: 555887523017947644
+    second: sprite_sheet_figures_180x180_framed_standard_29
+  - first:
+      213: 4176888644396466448
+    second: sprite_sheet_figures_180x180_framed_standard_30
+  - first:
+      213: 287833578303532481
+    second: sprite_sheet_figures_180x180_framed_standard_31
+  - first:
+      213: -6366623621711349686
+    second: sprite_sheet_figures_180x180_framed_standard_32
+  - first:
+      213: -8950373168227022742
+    second: sprite_sheet_figures_180x180_framed_standard_33
+  - first:
+      213: -2849520468181210040
+    second: sprite_sheet_figures_180x180_framed_standard_34
+  - first:
+      213: -2882502135876204311
+    second: sprite_sheet_figures_180x180_framed_standard_35
+  - first:
+      213: 8391637715749823004
+    second: sprite_sheet_figures_180x180_framed_standard_36
+  - first:
+      213: -6203820607308042521
+    second: sprite_sheet_figures_180x180_framed_standard_37
+  - first:
+      213: -5624558304623558754
+    second: sprite_sheet_figures_180x180_framed_standard_38
+  - first:
+      213: -1564446321783918843
+    second: sprite_sheet_figures_180x180_framed_standard_39
+  - first:
+      213: 6224975214791073302
+    second: sprite_sheet_figures_180x180_framed_standard_40
+  - first:
+      213: 7260928829906040021
+    second: sprite_sheet_figures_180x180_framed_standard_41
+  - first:
+      213: 3005009138809961527
+    second: sprite_sheet_figures_180x180_framed_standard_42
+  - first:
+      213: -4474354151101056678
+    second: sprite_sheet_figures_180x180_framed_standard_43
+  - first:
+      213: 4773633894081598965
+    second: sprite_sheet_figures_180x180_framed_standard_44
+  - first:
+      213: -3387505982686328280
+    second: sprite_sheet_figures_180x180_framed_standard_45
+  - first:
+      213: 61575209004752819
+    second: sprite_sheet_figures_180x180_framed_standard_46
+  - first:
+      213: 8255098104252129476
+    second: sprite_sheet_figures_180x180_framed_standard_47
+  - first:
+      213: 9141871568136597854
+    second: sprite_sheet_figures_180x180_framed_standard_48
+  - first:
+      213: -6184995622551335593
+    second: sprite_sheet_figures_180x180_framed_standard_49
+  - first:
+      213: 3306741374018762324
+    second: sprite_sheet_figures_180x180_framed_standard_50
+  - first:
+      213: -8311203627467606091
+    second: sprite_sheet_figures_180x180_framed_standard_51
+  - first:
+      213: -7916885067871965994
+    second: sprite_sheet_figures_180x180_framed_standard_52
+  - first:
+      213: 4426107427896205314
+    second: sprite_sheet_figures_180x180_framed_standard_53
+  - first:
+      213: 8031483350896271296
+    second: sprite_sheet_figures_180x180_framed_standard_54
+  - first:
+      213: 4823696626025823536
+    second: sprite_sheet_figures_180x180_framed_standard_55
+  - first:
+      213: -2966181547286815732
+    second: sprite_sheet_figures_180x180_framed_standard_56
+  - first:
+      213: -4619650092906398487
+    second: sprite_sheet_figures_180x180_framed_standard_57
+  - first:
+      213: -5983734586140443133
+    second: sprite_sheet_figures_180x180_framed_standard_58
+  - first:
+      213: 406407235276823994
+    second: sprite_sheet_figures_180x180_framed_standard_59
+  - first:
+      213: 1479423196784557917
+    second: sprite_sheet_figures_180x180_framed_standard_60
+  - first:
+      213: 3396238021120212906
+    second: sprite_sheet_figures_180x180_framed_standard_61
+  - first:
+      213: -4832709585267031760
+    second: sprite_sheet_figures_180x180_framed_standard_62
+  - first:
+      213: 4266459857807447118
+    second: sprite_sheet_figures_180x180_framed_standard_63
+  - first:
+      213: -8574263274864302274
+    second: sprite_sheet_figures_180x180_framed_standard_64
+  - first:
+      213: 4271912487830970453
+    second: sprite_sheet_figures_180x180_framed_standard_65
+  - first:
+      213: -5022567178121175542
+    second: sprite_sheet_figures_180x180_framed_standard_66
+  - first:
+      213: -7052544183186278214
+    second: sprite_sheet_figures_180x180_framed_standard_67
+  - first:
+      213: 5833481022498021177
+    second: sprite_sheet_figures_180x180_framed_standard_68
+  - first:
+      213: 3740058602362637166
+    second: sprite_sheet_figures_180x180_framed_standard_69
+  - first:
+      213: -7717813047745050792
+    second: sprite_sheet_figures_180x180_framed_standard_70
+  - first:
+      213: 7169382938450307880
+    second: sprite_sheet_figures_180x180_framed_standard_71
+  - first:
+      213: 7973583415032196792
+    second: sprite_sheet_figures_180x180_framed_standard_72
+  - first:
+      213: -4471710248337958504
+    second: sprite_sheet_figures_180x180_framed_standard_73
+  - first:
+      213: -5647537469547342823
+    second: sprite_sheet_figures_180x180_framed_standard_74
+  - first:
+      213: -680347406074523744
+    second: sprite_sheet_figures_180x180_framed_standard_75
+  - first:
+      213: -4007310907225821099
+    second: sprite_sheet_figures_180x180_framed_standard_76
+  - first:
+      213: 895150328200204323
+    second: sprite_sheet_figures_180x180_framed_standard_77
+  - first:
+      213: -1128915881493887885
+    second: sprite_sheet_figures_180x180_framed_standard_78
+  - first:
+      213: -4159239813380814076
+    second: sprite_sheet_figures_180x180_framed_standard_79
+  - first:
+      213: -5456246315196446183
+    second: sprite_sheet_figures_180x180_framed_standard_80
+  - first:
+      213: 998276075075105841
+    second: sprite_sheet_figures_180x180_framed_standard_81
+  - first:
+      213: -173218236468910888
+    second: sprite_sheet_figures_180x180_framed_standard_82
+  - first:
+      213: 4058557864859655452
+    second: sprite_sheet_figures_180x180_framed_standard_83
+  - first:
+      213: -5253197537456708937
+    second: sprite_sheet_figures_180x180_framed_standard_84
+  - first:
+      213: -416735471829277607
+    second: sprite_sheet_figures_180x180_framed_standard_85
+  - first:
+      213: 6901877410001881170
+    second: sprite_sheet_figures_180x180_framed_standard_86
+  - first:
+      213: -659481832709400735
+    second: sprite_sheet_figures_180x180_framed_standard_87
+  - first:
+      213: 7500614108341541845
+    second: sprite_sheet_figures_180x180_framed_standard_88
+  - first:
+      213: -7553775477746173109
+    second: sprite_sheet_figures_180x180_framed_standard_89
+  - first:
+      213: -5007601035872079681
+    second: sprite_sheet_figures_180x180_framed_standard_90
+  - first:
+      213: 5447695928610736452
+    second: sprite_sheet_figures_180x180_framed_standard_91
+  - first:
+      213: 5537869370027946114
+    second: sprite_sheet_figures_180x180_framed_standard_92
+  - first:
+      213: -8011886637152053880
+    second: sprite_sheet_figures_180x180_framed_standard_93
+  - first:
+      213: -3960749855177321739
+    second: sprite_sheet_figures_180x180_framed_standard_94
+  - first:
+      213: 3455793962063069040
+    second: sprite_sheet_figures_180x180_framed_standard_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1868
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0884817007d82260800000000000000
+      internalID: 7073139611689846797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1868
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523f87baaef2857d0800000000000000
+      internalID: -2929538872658824411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1868
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c8afaf859c961f0800000000000000
+      internalID: -1051087654009271152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1868
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0b4fa3a033e37b0800000000000000
+      internalID: -5242696797180874497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1868
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b5747839cd201b0800000000000000
+      internalID: -5691744452854981807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1868
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eac0d6c65d393690800000000000000
+      internalID: -7621993451435799835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_6
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1868
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2dd0f0e1dd7b8c0800000000000000
+      internalID: -3983472224214592819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_7
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1868
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d9898ab012a8800800000000000000
+      internalID: 615340633046424958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_8
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1868
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563c20fd92aa9a4a0800000000000000
+      internalID: -6581542283613387931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_9
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1868
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55b2489bb639fb20800000000000000
+      internalID: 3168623992173147484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_10
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1868
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a142e60b182a380800000000000000
+      internalID: -8961457713751778688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1688
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a8dab8037e37930800000000000000
+      internalID: 4139906678171470366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1688
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9118f3f6a5c0d4f60800000000000000
+      internalID: 8020080093969744153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1688
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b5a483770fd0e50800000000000000
+      internalID: 6777337409098636062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1688
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465d3c32487c5d190800000000000000
+      internalID: -7938219397820983964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1688
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0112b1a9c55b2a8c0800000000000000
+      internalID: -3989426910569750256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_16
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1688
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00342a7cb0e6f3530800000000000000
+      internalID: 3836906404415947520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_17
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1688
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca660022ccb42a10800000000000000
+      internalID: 1883838086094678727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_18
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1688
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c85a61c62207890800000000000000
+      internalID: -7462426734921151476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_19
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1688
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e0746c540051f40800000000000000
+      internalID: 5698461203186519566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_20
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1688
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a6021087b8eabb0800000000000000
+      internalID: -4922843995138135452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_21
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1688
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d485838ef9c5b1160800000000000000
+      internalID: 6997288287915759693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1508
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a4126d247b7e660800000000000000
+      internalID: 7415096809177041502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1508
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cdc983f6b5f3ad0800000000000000
+      internalID: -2720355116659188729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1508
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8598f525a462c80800000000000000
+      internalID: -8347903141634025229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_25
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1508
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3c63f10bfef5190800000000000000
+      internalID: -7971389275705523218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_26
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1508
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831efe67c59f69ab0800000000000000
+      internalID: -5001536160620617416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_27
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1508
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dba6442e05b8f80800000000000000
+      internalID: -8103294171782398703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_28
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1508
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a79d1b78b3d9220800000000000000
+      internalID: 2494215222623566405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_29
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1508
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf97e88c1c8e6b700800000000000000
+      internalID: 555887523017947644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_30
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1508
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0114d9b871a47f930800000000000000
+      internalID: 4176888644396466448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_31
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1508
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd263d4d179ef300800000000000000
+      internalID: 287833578303532481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_32
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1508
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48b8414c8535a7a0800000000000000
+      internalID: -6366623621711349686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1328
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6804ac4603e9c380800000000000000
+      internalID: -8950373168227022742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_34
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1328
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84caad94b387478d0800000000000000
+      internalID: -2849520468181210040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_35
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1328
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e84bce549b4ff7d0800000000000000
+      internalID: -2882502135876204311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_36
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1328
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12e90baa06157470800000000000000
+      internalID: 8391637715749823004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_37
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1328
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eee723e60a97e9a0800000000000000
+      internalID: -6203820607308042521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_38
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1328
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f707aa50e81f1b0800000000000000
+      internalID: -5624558304623558754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_39
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1328
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f27efeb58f94ae0800000000000000
+      internalID: -1564446321783918843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_40
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1328
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e9b3df9fd836650800000000000000
+      internalID: 6224975214791073302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_41
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1328
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d431fdfc4004c460800000000000000
+      internalID: 7260928829906040021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_42
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1328
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cf199f3efe3b920800000000000000
+      internalID: 3005009138809961527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_43
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1328
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59b3501b96e7e1c0800000000000000
+      internalID: -4474354151101056678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1148
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f59f702cba5f3240800000000000000
+      internalID: 4773633894081598965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_45
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1148
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a887ba1492df0d0800000000000000
+      internalID: -3387505982686328280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_46
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1148
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfd2bb8352cad000800000000000000
+      internalID: 61575209004752819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_47
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1148
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0e2f90dffff8270800000000000000
+      internalID: 8255098104252129476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_48
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1148
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51760961c37ede70800000000000000
+      internalID: 9141871568136597854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_49
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1148
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d4b74304b7a2aa0800000000000000
+      internalID: -6184995622551335593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_50
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1148
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456b97282c7e3ed20800000000000000
+      internalID: 3306741374018762324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_51
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1148
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7fad0e55ca8ac80800000000000000
+      internalID: -8311203627467606091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_52
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1148
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dca5e9e9f2912290800000000000000
+      internalID: -7916885067871965994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_53
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1148
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200a8715141bc6d30800000000000000
+      internalID: 4426107427896205314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_54
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1148
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfd2a51e8f857f60800000000000000
+      internalID: 8031483350896271296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03df48a368631f240800000000000000
+      internalID: 4823696626025823536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_56
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 968
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c96a6299106d6d0800000000000000
+      internalID: -2966181547286815732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_57
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 968
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecb6b967b4b3efb0800000000000000
+      internalID: -4619650092906398487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_58
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 968
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e31ead81185fca0800000000000000
+      internalID: -5983734586140443133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_59
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 968
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdd2dc2a39d3a500800000000000000
+      internalID: 406407235276823994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_60
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 968
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ff0d42f87f78410800000000000000
+      internalID: 1479423196784557917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_61
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 968
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafbb857c7cd12f20800000000000000
+      internalID: 3396238021120212906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_62
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 968
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031888bac34ceecb0800000000000000
+      internalID: -4832709585267031760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_63
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 968
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e449311d2a2853b30800000000000000
+      internalID: 4266459857807447118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_64
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 968
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37290bdaf8120980800000000000000
+      internalID: -8574263274864302274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_65
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 968
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55068bc26c1e84b30800000000000000
+      internalID: 4271912487830970453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e1d8f13c14c4ab0800000000000000
+      internalID: -5022567178121175542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_67
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 788
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab83f6e6e64502e90800000000000000
+      internalID: -7052544183186278214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_68
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 788
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f1af53510b4f050800000000000000
+      internalID: 5833481022498021177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_69
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 788
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b08f0bb7b57e330800000000000000
+      internalID: 3740058602362637166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_70
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 788
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857084e7ce1d4e490800000000000000
+      internalID: -7717813047745050792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_71
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 788
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ba3192cc3ce7360800000000000000
+      internalID: 7169382938450307880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_72
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 788
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bea0ffbedbd7ae60800000000000000
+      internalID: 7973583415032196792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_73
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 788
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8999755a83b41f1c0800000000000000
+      internalID: -4471710248337958504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_74
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 788
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9141ce7e79aef91b0800000000000000
+      internalID: -5647537469547342823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_75
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 788
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afc11983abee86f0800000000000000
+      internalID: -680347406074523744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_76
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 788
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550b14626fb2368c0800000000000000
+      internalID: -4007310907225821099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32092f41b763c6c00800000000000000
+      internalID: 895150328200204323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_78
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 608
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374824eacf84550f0800000000000000
+      internalID: -1128915881493887885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_79
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 608
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b46c32d696746c0800000000000000
+      internalID: -4159239813380814076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_80
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 608
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a8eaf72e48744b0800000000000000
+      internalID: -5456246315196446183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_81
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 608
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1347f9a1dc69add00800000000000000
+      internalID: 998276075075105841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_82
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 608
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4a6a28eea989df0800000000000000
+      internalID: -173218236468910888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_83
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 608
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dd35bffd4e25830800000000000000
+      internalID: 4058557864859655452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_84
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 608
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2afec1ca4e817b0800000000000000
+      internalID: -5253197537456708937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_85
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 608
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954af4cdb45773af0800000000000000
+      internalID: -416735471829277607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_86
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 608
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258847acfe468cf50800000000000000
+      internalID: 6901877410001881170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_87
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 608
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167588964cc09d6f0800000000000000
+      internalID: -659481832709400735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 428
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db1bf4aac8871860800000000000000
+      internalID: 7500614108341541845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_89
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 428
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bf1ef79399b2790800000000000000
+      internalID: -7553775477746173109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_90
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 428
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb077f7a36d618ab0800000000000000
+      internalID: -5007601035872079681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_91
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 428
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4494f2d759a1a9b40800000000000000
+      internalID: 5447695928610736452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_92
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 428
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2803805e9d67adc40800000000000000
+      internalID: 5537869370027946114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_93
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 428
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8855ad36d8f00d090800000000000000
+      internalID: -8011886637152053880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_94
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 428
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2d9fdddf69809c0800000000000000
+      internalID: -3960749855177321739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_figures_180x180_framed_standard_95
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 428
+        width: 180
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f75b58c4275ff20800000000000000
+      internalID: 3455793962063069040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
