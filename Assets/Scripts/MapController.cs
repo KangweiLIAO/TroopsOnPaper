@@ -6,16 +6,18 @@ using CodeMonkey.Utils;
 
 public class MapController : MonoBehaviour
 {
-    [SerializeField] private int mapWidth = 100;
-    [SerializeField] private int mapHeight = 100;
-    [Range(0, 100)] public int randomFillPercent = 50;
+    [SerializeField] private int mapWidth = 30;
+    [SerializeField] private int mapHeight = 30;
+    [Range(0, 100)] public int landFillPercent = 50;
     [SerializeField] private Grid mapGrid;
 
     public string seed;
     public bool useRandomSeed = true;
-    public List<TileBase> tiles = new List<TileBase>();
+    public List<TileBase> oceanTiles = new List<TileBase>(1);
+    public List<TileBase> landTiles = new List<TileBase>(1);
+    public List<TileBase> mountainTiles = new List<TileBase>(1);
 
-    private List<Tilemap> tileMaps = new List<Tilemap>();
+    private List<Tilemap> tileMaps = new List<Tilemap>(1);
     private int[,] mapMatrix;
 
     // Awake is called when the script is loaded
@@ -45,7 +47,7 @@ public class MapController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)) {
             GenerateMap(tileMaps[0]);
-            DisplayMapCoord(tileMaps[0], Color.red);
+            //DisplayMapCoord(tileMaps[0], Color.red);
         }
     }
 
@@ -55,32 +57,31 @@ public class MapController : MonoBehaviour
     /// <param name="tileMap"></param>
     void GenerateMap(Tilemap tileMap)
     {
-        mapMatrix = new int[mapWidth, mapHeight];
-        RandomFillMap();    // fill the map randomly using seed
+        List<TileBase> tiles = new List<TileBase>();
+        tiles.AddRange(oceanTiles);
+        tiles.AddRange(landTiles);
+        tiles.AddRange(mountainTiles);
 
-        for (int i = 0; i < 3; i++) {
-            SmoothMap();
-        }
+        tileMap.ClearAllTiles();
+
+        mapMatrix = new int[mapWidth, mapHeight];
+        RandomFillMap(0,oceanTiles.Count,tiles);    // fill the map randomly using seed
 
         for (int x = 0; x < mapWidth; x++) {
             for (int y = 0; y < mapHeight; y++) {
                 // create random map base on map matrix
                 Vector3Int pos = new Vector3Int(x,y,1);
-                if (mapMatrix[x, y] == 0) {
-                    tileMap.SetTile(pos, tiles[0]);
-                } else if (mapMatrix[x, y] == 1) {
-                    tileMap.SetTile(pos, tiles[1]);
-                } else {
-                    tileMap.SetTile(pos, tiles[2]);
-                }
+                tileMap.SetTile(pos, tiles[mapMatrix[x, y]]);
             }
         }
     }
 
     /// <summary>
-    /// Randomly fill the map with some tiles 
+    /// Randomly generate not smoothed map
     /// </summary>
-    void RandomFillMap()
+    /// <param name="defaultOcean"> List index of default ocean tile in tiles list </param>
+    /// <param name="defaultLand"> List index of default land tile in tiles list </param>
+    void RandomFillMap(int defaultOcean, int defaultLand, List<TileBase> tiles)
     {
         if (useRandomSeed) {
             seed = Time.time.ToString();
@@ -91,30 +92,37 @@ public class MapController : MonoBehaviour
         for (int x = 0; x < mapWidth; x++) {
             for (int y = 0; y < mapHeight; y++) {
                 // loop through all tiles in map
-                if (x == 0 || x == mapWidth - 1 || y == 0 || y == mapHeight - 1) {
-                    // set the edge to 0
-                    mapMatrix[x, y] = 0;
-                } else {
-                    // if random < threshold then it's a wall, else it's blank
-                    mapMatrix[x, y] = (pseudoRandom.Next(0, 100) < randomFillPercent) ? 0 : 1;
-                }
+                mapMatrix[x, y] = (pseudoRandom.Next(0, 100) < landFillPercent) ? defaultLand : defaultOcean;
             }
         }
+        SmoothMap(defaultOcean, defaultLand, tiles);
     }
 
     /// <summary>
-    /// Smooth map using some rules
+    /// Smooth map base on some rules
     /// </summary>
-    void SmoothMap()
+    /// <param name="defaultOcean"> List index of default ocean tile in tiles list </param>
+    /// <param name="defaultLand"> List index of default land tile in tiles list </param>
+    void SmoothMap(int defaultOcean, int defaultLand, List<TileBase> tiles, int smoothTimes=3)
     {
+        for (int i = 0; i < smoothTimes; i++) {
+            for (int x = 0; x < mapWidth; x++) {
+                for (int y = 0; y < mapHeight; y++) {
+                    int neibourDefaultLandTiles = CountTilesAround(x, y, defaultLand);
+                    // smoothing rules:
+                    if (neibourDefaultLandTiles > 4)
+                        mapMatrix[x, y] = defaultLand;
+                    else if (neibourDefaultLandTiles < 4)
+                        mapMatrix[x, y] = defaultOcean;
+                }
+            }
+        }
         for (int x = 0; x < mapWidth; x++) {
             for (int y = 0; y < mapHeight; y++) {
-                int neibourDefaultTiles = CountTilesAround(x, y, 1);
-                // smoothing rules: 
-                if (neibourDefaultTiles > 4)
-                    mapMatrix[x, y] = 1;
-                else if (neibourDefaultTiles < 4)
-                    mapMatrix[x, y] = 0;
+                if (mapMatrix[x, y] == defaultLand)
+                    mapMatrix[x, y] = Random.Range(defaultLand, defaultLand+landTiles.Count);
+                else if (mapMatrix[x, y] == defaultOcean)
+                    mapMatrix[x, y] = Random.Range(defaultOcean, defaultOcean+oceanTiles.Count);
             }
         }
     }
@@ -124,7 +132,7 @@ public class MapController : MonoBehaviour
     /// </summary>
     /// <param name="gridX"></param>
     /// <param name="gridY"></param>
-    /// <param name="type"></param>
+    /// <param name="type"> type of tile (List index of the tile in tiles) </param>
     /// <returns></returns>
     int CountTilesAround(int gridX, int gridY, int type)
     {
@@ -137,7 +145,7 @@ public class MapController : MonoBehaviour
                     // If (gridX,gridY) in the map
                     if (neighbourX != gridX || neighbourY != gridY) {
                         // if not looking at given tile position
-                        count += mapMatrix[neighbourX, neighbourY]==type ? 1 : 0;     // count += tile index (i.e. 0,1,2...)
+                        count += mapMatrix[neighbourX, neighbourY]==type ? 1 : 0;     // count += num of tiles with given type
                     }
                 } else {
                     // if looking outside/edge of the map
@@ -163,7 +171,7 @@ public class MapController : MonoBehaviour
             Vector3 place = tileMaps[0].CellToWorld(localPlace);
             if (tileMaps[0].HasTile(localPlace)) {
                 tileWorldLocations.Add(place);
-                TextMesh txt = UtilsClass.CreateWorldText(pos.x.ToString() + ", " + pos.y.ToString(), map.transform, 
+                TextMesh txt = UtilsClass.CreateWorldText(pos.x.ToString() + ", " + pos.y.ToString(), map.transform,
                     place, fontSize, color, TextAnchor.MiddleCenter);
                 txt.transform.localScale += new Vector3(-0.7f, -0.7f, -0.7f);
             }

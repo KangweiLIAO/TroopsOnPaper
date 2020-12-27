@@ -671,14 +671,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapWidth: 30
   mapHeight: 30
+  landFillPercent: 50
   mapGrid: {fileID: 240433854}
-  randomFillPercent: 40
-  useRandomSeed: 1
   seed: 
-  tiles:
-  - {fileID: 11400000, guid: fb11550ce1c048147aa3f2b86d7a8f28, type: 2}
-  - {fileID: 11400000, guid: ac221b5507233ef419aeae2ae261563f, type: 2}
-  - {fileID: 11400000, guid: bdb420ef7d8c56847841558cb3e3c40f, type: 2}
+  useRandomSeed: 1
+  oceanTiles:
+  - {fileID: 11400000, guid: b8bd71b3d6e581845aabc60ade4616fe, type: 2}
+  - {fileID: 11400000, guid: 174c2ac810662b54dafd3f9893d791f1, type: 2}
+  - {fileID: 11400000, guid: d0eb522a46314e04d9ca02dc9a3a7d08, type: 2}
+  landTiles:
+  - {fileID: 11400000, guid: 28662734f6ca7bb40875c74115db6c81, type: 2}
+  - {fileID: 11400000, guid: 3791efb8a1786b24ba8578b1102b667a, type: 2}
+  - {fileID: 11400000, guid: 9ad891a296dafe0478982f4f25dba9c8, type: 2}
+  mountainTiles:
+  - {fileID: 11400000, guid: 7a238585a1c11e84fa5fc4e578f4e661, type: 2}
+  - {fileID: 11400000, guid: 852469dd55f32194086fd8ac28cf8a7e, type: 2}
+  - {fileID: 11400000, guid: 3d73c2e62700c8a4ca876b8e62d3a283, type: 2}
 --- !u!4 &1542901862
 Transform:
   m_ObjectHideFlags: 0
