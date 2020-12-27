@@ -8,10 +8,11 @@ public class MapController : MonoBehaviour
 {
     [SerializeField] private int mapWidth = 100;
     [SerializeField] private int mapHeight = 100;
+    [Range(0, 100)] public int randomFillPercent = 50;
     [SerializeField] private Grid mapGrid;
-    [Range(0, 100)] public int randomFillPercent;
-    public bool useRandomSeed;
-    [SerializeField] private string seed;
+
+    public string seed;
+    public bool useRandomSeed = true;
     public List<TileBase> tiles = new List<TileBase>();
 
     private List<Tilemap> tileMaps = new List<Tilemap>();
@@ -28,24 +29,7 @@ public class MapController : MonoBehaviour
             Debug.Log(tilemap.name + " size: " + tilemap.size);
             if (tilemap.cellBounds.Contains(worldCellPosition)) {
                 // if tilemap is not empty
-                int index = 0;
-                List<Vector3> tileWorldLocations = new List<Vector3>();
-
-                foreach (var pos in tilemap.cellBounds.allPositionsWithin) {
-                    // loop through tiles in tilemap
-                    Vector3Int localPlace = new Vector3Int(pos.x, pos.y, pos.z);
-                    Vector3 place = tilemap.CellToWorld(localPlace);
-                    if (tilemap.HasTile(localPlace)) {
-                        tileWorldLocations.Add(place);
-                        //if (tilemap.name == "EnvironmentMap") {
-                        //    TextMesh txt = UtilsClass.CreateWorldText(index++.ToString(), null, place, 15, Color.white, TextAnchor.MiddleCenter);
-                        //    txt.transform.localScale += new Vector3 (-0.7f,-0.7f,-0.7f);
-                        //}
-                    }
-                }
-            }
-            if (tilemap.name == "EnvironmentMap") {
-                GenerateMap(tilemap);
+                
             }
         }
     }
@@ -61,15 +45,20 @@ public class MapController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)) {
             GenerateMap(tileMaps[0]);
+            DisplayMapCoord(tileMaps[0], Color.red);
         }
     }
 
+    /// <summary>
+    /// Generate the map on a given tilemap
+    /// </summary>
+    /// <param name="tileMap"></param>
     void GenerateMap(Tilemap tileMap)
     {
         mapMatrix = new int[mapWidth, mapHeight];
         RandomFillMap();    // fill the map randomly using seed
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 3; i++) {
             SmoothMap();
         }
 
@@ -88,6 +77,9 @@ public class MapController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Randomly fill the map with some tiles 
+    /// </summary>
     void RandomFillMap()
     {
         if (useRandomSeed) {
@@ -110,34 +102,71 @@ public class MapController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Smooth map using some rules
+    /// </summary>
     void SmoothMap()
     {
         for (int x = 0; x < mapWidth; x++) {
             for (int y = 0; y < mapHeight; y++) {
-                int neighbourWallTiles = GetSurroundingWallCount(x, y);
-
-                if (neighbourWallTiles > 4)
+                int neibourDefaultTiles = CountTilesAround(x, y, 1);
+                // smoothing rules: 
+                if (neibourDefaultTiles > 4)
                     mapMatrix[x, y] = 1;
-                else if (neighbourWallTiles < 4)
+                else if (neibourDefaultTiles < 4)
                     mapMatrix[x, y] = 0;
             }
         }
     }
 
-    int GetSurroundingWallCount(int gridX, int gridY)
+    /// <summary>
+    /// Count the number of indicated type of tiles surrounding the given tile position
+    /// </summary>
+    /// <param name="gridX"></param>
+    /// <param name="gridY"></param>
+    /// <param name="type"></param>
+    /// <returns></returns>
+    int CountTilesAround(int gridX, int gridY, int type)
     {
-        int wallCount = 0;
+        // How many tiles around this tile are walls
+        int count = 0;
         for (int neighbourX = gridX - 1; neighbourX <= gridX + 1; neighbourX++) {
             for (int neighbourY = gridY - 1; neighbourY <= gridY + 1; neighbourY++) {
+                // loop through the tiles around the tile at (gridX,gridY)
                 if (neighbourX >= 0 && neighbourX < mapWidth && neighbourY >= 0 && neighbourY < mapHeight) {
+                    // If (gridX,gridY) in the map
                     if (neighbourX != gridX || neighbourY != gridY) {
-                        wallCount += mapMatrix[neighbourX, neighbourY];
+                        // if not looking at given tile position
+                        count += mapMatrix[neighbourX, neighbourY]==type ? 1 : 0;     // count += tile index (i.e. 0,1,2...)
                     }
                 } else {
-                    wallCount++;
+                    // if looking outside/edge of the map
+                    count++;
                 }
             }
         }
-        return wallCount;
+        return count;
+    }
+
+    /// <summary>
+    /// Display coordinates on given tilemap for each tile
+    /// </summary>
+    /// <param name="map"></param>
+    /// <param name="fontSize"></param>
+    /// <param name="color"></param>
+    void DisplayMapCoord(Tilemap map, Color color, int fontSize= 15)
+    {
+        foreach (var pos in map.cellBounds.allPositionsWithin) {
+            // loop through tiles in tileMaps[0]
+            List<Vector3> tileWorldLocations = new List<Vector3>();
+            Vector3Int localPlace = new Vector3Int(pos.x, pos.y, pos.z);
+            Vector3 place = tileMaps[0].CellToWorld(localPlace);
+            if (tileMaps[0].HasTile(localPlace)) {
+                tileWorldLocations.Add(place);
+                TextMesh txt = UtilsClass.CreateWorldText(pos.x.ToString() + ", " + pos.y.ToString(), map.transform, 
+                    place, fontSize, color, TextAnchor.MiddleCenter);
+                txt.transform.localScale += new Vector3(-0.7f, -0.7f, -0.7f);
+            }
+        }
     }
 }
