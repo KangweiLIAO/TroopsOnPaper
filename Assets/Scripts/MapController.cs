@@ -8,17 +8,19 @@ public class MapController : MonoBehaviour
 {
     [SerializeField] private int mapWidth = 30;
     [SerializeField] private int mapHeight = 30;
-    [Range(0, 100)] public int landFillPercent = 50;
     [SerializeField] private Grid mapGrid;
+    [SerializeField] private TileBase highlightTile;
+    private Tilemap highlightMap;
+    private Vector3Int prevTilePosition = new Vector3Int();
+    private List<Tilemap> tileMaps = new List<Tilemap>(1);
+    private int[,] mapMatrix;
 
     public string seed;
     public bool useRandomSeed = true;
+    [Range(0, 100)] public int landFillPercent = 50;
     public List<TileBase> oceanTiles = new List<TileBase>(1);
     public List<TileBase> landTiles = new List<TileBase>(1);
     public List<TileBase> mountainTiles = new List<TileBase>(1);
-
-    private List<Tilemap> tileMaps = new List<Tilemap>(1);
-    private int[,] mapMatrix;
 
     // Awake is called when the script is loaded
     void Awake()
@@ -26,9 +28,10 @@ public class MapController : MonoBehaviour
         Debug.Log(mapGrid.transform.position);
         Vector3Int worldCellPosition = mapGrid.WorldToCell(mapGrid.transform.position);
         foreach (var tilemap in mapGrid.GetComponentsInChildren<Tilemap>()) {
-            // loop through tilemaps in grid
+            // loop through tilemaps in grid object
             tileMaps.Add(tilemap);
             Debug.Log(tilemap.name + " size: " + tilemap.size);
+            if (tilemap.name == "HighlightMap") highlightMap = tilemap;
             if (tilemap.cellBounds.Contains(worldCellPosition)) {
                 // if tilemap is not empty
                 
@@ -48,6 +51,15 @@ public class MapController : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) {
             GenerateMap(tileMaps[0]);
             //DisplayMapCoord(tileMaps[0], Color.red);
+        }
+        // Highlighting the tile at mouse pos
+        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3Int tileCoordinate = highlightMap.WorldToCell(mouseWorldPos);
+        if (tileCoordinate != prevTilePosition) {
+            highlightMap.SetTile(prevTilePosition, null);
+            highlightMap.SetTile(tileCoordinate, highlightTile);
+            prevTilePosition = tileCoordinate;
+            Debug.LogWarning("Mouse at " + tileCoordinate);
         }
     }
 
