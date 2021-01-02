@@ -59,7 +59,7 @@ public class MapController : MonoBehaviour
             highlightMap.SetTile(prevTilePosition, null);
             highlightMap.SetTile(tileCoordinate, highlightTile);
             prevTilePosition = tileCoordinate;
-            Debug.LogWarning("Mouse at " + tileCoordinate);
+            // Debug.Log("Mouse at " + tileCoordinate);
         }
     }
 

@@ -37,10 +37,15 @@ public class CameraController : MonoBehaviour
         // Keyboard Movement
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-        gameObject.transform.position += new Vector3(horizontalInput * moveSpeed * Time.deltaTime, 
+        gameObject.transform.position += new Vector3(horizontalInput * moveSpeed * Time.deltaTime,
             verticalInput * moveSpeed * Time.deltaTime, 0);     // Add vector3 to camera position
 
-        // TODO: Edge Movement
-
+        // Edge Scrolling
+        if (Input.mousePosition.x > Screen.width - 10f)
+            gameObject.transform.position += new Vector3(moveSpeed *Time.deltaTime,0,0);
+        if (Input.mousePosition.x < 10f) gameObject.transform.position -= new Vector3(moveSpeed * Time.deltaTime, 0, 0);
+        if (Input.mousePosition.y > Screen.height - 10f)
+            gameObject.transform.position += new Vector3(0, moveSpeed * Time.deltaTime, 0);
+        if (Input.mousePosition.y < 10f) gameObject.transform.position -= new Vector3(0, moveSpeed * Time.deltaTime, 0);
     }
 }
