@@ -58,3 +58,12 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Online assets
+/Assets/_/
+/Assets/Isle*of*Lore*2*Hex*Tiles*Regular/
+/Assets/Isle*of*Lore*2*Strategy*Figures/
+/Assets/TextMesh*Pro/
+/Assets/Doozy/
+/Assets/Gizmos/
+/Assets/Plugins/
+/Assets/Simple*UI/
