@@ -58,3 +58,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Online assets
+/Assets/_/
+/Assets/Doozy/
+/Assets/Gizmos/
+/Assets/Plugins/
+/Assets/Resources/
+/Assets/TextMesh*Pro/
+

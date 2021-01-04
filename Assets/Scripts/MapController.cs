@@ -6,21 +6,23 @@ using CodeMonkey.Utils;
 
 public class MapController : MonoBehaviour
 {
-    [SerializeField] private int mapWidth = 30;
-    [SerializeField] private int mapHeight = 30;
-    [SerializeField] private Grid mapGrid;
-    [SerializeField] private TileBase highlightTile;
     private Tilemap highlightMap;
     private Vector3Int prevTilePosition = new Vector3Int();
     private List<Tilemap> tileMaps = new List<Tilemap>(1);
     private int[,] mapMatrix;
 
-    public string seed;
-    public bool useRandomSeed = true;
-    [Range(0, 100)] public int landFillPercent = 50;
-    public List<TileBase> oceanTiles = new List<TileBase>(1);
-    public List<TileBase> landTiles = new List<TileBase>(1);
-    public List<TileBase> mountainTiles = new List<TileBase>(1);
+    public int width;       // To help display map width in inspector
+    public int height;      // To help display map height in inspector
+    public int mapWidth { get; set; }
+    public int mapHeight { get; set; }
+
+    [SerializeField] [Range(0, 100)] private int landFillPercent = 50;
+    [SerializeField] private string seed;
+    [SerializeField] public bool useRandomSeed = true;
+    [SerializeField] private TileBase highlightTile;
+
+    public Grid mapGrid;
+    public List<TileBase> oceanTiles, landTiles, mountainTiles;
 
     // Awake is called when the script is loaded
     void Awake()
@@ -34,7 +36,7 @@ public class MapController : MonoBehaviour
             if (tilemap.name == "HighlightMap") highlightMap = tilemap;
             if (tilemap.cellBounds.Contains(worldCellPosition)) {
                 // if tilemap is not empty
-                
+
             }
         }
     }
@@ -42,7 +44,8 @@ public class MapController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        mapWidth = width;
+        mapHeight = height;
     }
 
     // Update is called once per frame
@@ -50,7 +53,7 @@ public class MapController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)) {
             GenerateMap(tileMaps[0]);
-            //DisplayMapCoord(tileMaps[0], Color.red);
+            // DisplayMapCoord(tileMaps[0], Color.red);
         }
         // Highlighting the tile at mouse pos
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -59,7 +62,7 @@ public class MapController : MonoBehaviour
             highlightMap.SetTile(prevTilePosition, null);
             highlightMap.SetTile(tileCoordinate, highlightTile);
             prevTilePosition = tileCoordinate;
-            Debug.LogWarning("Mouse at " + tileCoordinate);
+            // Debug.Log("Mouse at " + tileCoordinate);
         }
     }
 
@@ -77,12 +80,12 @@ public class MapController : MonoBehaviour
         tileMap.ClearAllTiles();
 
         mapMatrix = new int[mapWidth, mapHeight];
-        RandomFillMap(0,oceanTiles.Count,tiles);    // fill the map randomly using seed
+        RandomFillMap(0, oceanTiles.Count, tiles);    // fill the map randomly using seed
 
         for (int x = 0; x < mapWidth; x++) {
             for (int y = 0; y < mapHeight; y++) {
                 // create random map base on map matrix
-                Vector3Int pos = new Vector3Int(x,y,1);
+                Vector3Int pos = new Vector3Int(x, y, 1);
                 tileMap.SetTile(pos, tiles[mapMatrix[x, y]]);
             }
         }
@@ -115,7 +118,7 @@ public class MapController : MonoBehaviour
     /// </summary>
     /// <param name="defaultOcean"> List index of default ocean tile in tiles list </param>
     /// <param name="defaultLand"> List index of default land tile in tiles list </param>
-    void SmoothMap(int defaultOcean, int defaultLand, List<TileBase> tiles, int smoothTimes=3)
+    void SmoothMap(int defaultOcean, int defaultLand, List<TileBase> tiles, int smoothTimes = 3)
     {
         for (int i = 0; i < smoothTimes; i++) {
             for (int x = 0; x < mapWidth; x++) {
@@ -132,9 +135,9 @@ public class MapController : MonoBehaviour
         for (int x = 0; x < mapWidth; x++) {
             for (int y = 0; y < mapHeight; y++) {
                 if (mapMatrix[x, y] == defaultLand)
-                    mapMatrix[x, y] = Random.Range(defaultLand, defaultLand+landTiles.Count);
+                    mapMatrix[x, y] = Random.Range(defaultLand, defaultLand + landTiles.Count);
                 else if (mapMatrix[x, y] == defaultOcean)
-                    mapMatrix[x, y] = Random.Range(defaultOcean, defaultOcean+oceanTiles.Count);
+                    mapMatrix[x, y] = Random.Range(defaultOcean, defaultOcean + oceanTiles.Count);
             }
         }
     }
@@ -157,7 +160,7 @@ public class MapController : MonoBehaviour
                     // If (gridX,gridY) in the map
                     if (neighbourX != gridX || neighbourY != gridY) {
                         // if not looking at given tile position
-                        count += mapMatrix[neighbourX, neighbourY]==type ? 1 : 0;     // count += num of tiles with given type
+                        count += mapMatrix[neighbourX, neighbourY] == type ? 1 : 0;     // count += num of tiles with given type
                     }
                 } else {
                     // if looking outside/edge of the map
@@ -174,7 +177,7 @@ public class MapController : MonoBehaviour
     /// <param name="map"></param>
     /// <param name="fontSize"></param>
     /// <param name="color"></param>
-    void DisplayMapCoord(Tilemap map, Color color, int fontSize= 15)
+    void DisplayMapCoord(Tilemap map, Color color, int fontSize = 15)
     {
         foreach (var pos in map.cellBounds.allPositionsWithin) {
             // loop through tiles in tileMaps[0]
