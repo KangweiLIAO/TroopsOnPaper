@@ -151,7 +151,10 @@ MonoBehaviour:
     Name: Main Menu
   m_onEnterHideViews: []
   m_onExitShowViews: []
-  m_onExitHideViews: []
+  m_onExitHideViews:
+  - Category: Main
+    InstantAction: 0
+    Name: Main Menu
 --- !u!114 &-7832925525492404768
 MonoBehaviour:
   m_ObjectHideFlags: 1

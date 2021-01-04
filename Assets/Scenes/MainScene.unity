@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 87273823}
   m_Layer: 0
   m_Name: GameController
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -368,7 +368,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.27058825, g: 0.2627451, b: 0.2509804, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -427,11 +427,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 627e8a36b7e663e498394bda9486d36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 0}
-  camSize: 0
-  zoomFactor: 3
   zoomSpeed: 5
   moveSpeed: 10
+  envTileMap: {fileID: 1769949751}
 --- !u!1 &467226077
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,7 +829,7 @@ GameObject:
   - component: {fileID: 1542901861}
   m_Layer: 0
   m_Name: MapController
-  m_TagString: Untagged
+  m_TagString: MapController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -850,11 +848,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapWidth: 30
   mapHeight: 30
-  mapGrid: {fileID: 240433854}
-  highlightTile: {fileID: 11400000, guid: eafdc3511178bbf44a1bab7d2b51e652, type: 2}
+  landFillPercent: 50
   seed: 
   useRandomSeed: 1
-  landFillPercent: 50
+  highlightTile: {fileID: 11400000, guid: eafdc3511178bbf44a1bab7d2b51e652, type: 2}
+  mapGrid: {fileID: 240433854}
   oceanTiles:
   - {fileID: 11400000, guid: b8bd71b3d6e581845aabc60ade4616fe, type: 2}
   - {fileID: 11400000, guid: 174c2ac810662b54dafd3f9893d791f1, type: 2}

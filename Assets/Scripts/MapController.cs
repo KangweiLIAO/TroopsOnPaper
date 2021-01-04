@@ -6,21 +6,19 @@ using CodeMonkey.Utils;
 
 public class MapController : MonoBehaviour
 {
-    [SerializeField] private int mapWidth = 30;
-    [SerializeField] private int mapHeight = 30;
-    [SerializeField] private Grid mapGrid;
-    [SerializeField] private TileBase highlightTile;
     private Tilemap highlightMap;
     private Vector3Int prevTilePosition = new Vector3Int();
     private List<Tilemap> tileMaps = new List<Tilemap>(1);
     private int[,] mapMatrix;
 
-    public string seed;
-    public bool useRandomSeed = true;
-    [Range(0, 100)] public int landFillPercent = 50;
-    public List<TileBase> oceanTiles = new List<TileBase>(1);
-    public List<TileBase> landTiles = new List<TileBase>(1);
-    public List<TileBase> mountainTiles = new List<TileBase>(1);
+    [SerializeField] private int mapWidth = 30, mapHeight = 30;
+    [SerializeField] [Range(0, 100)] private int landFillPercent = 50;
+    [SerializeField] private string seed;
+    [SerializeField] public bool useRandomSeed = true;
+    [SerializeField] private TileBase highlightTile;
+
+    public Grid mapGrid;
+    public List<TileBase> oceanTiles, landTiles, mountainTiles;
 
     // Awake is called when the script is loaded
     void Awake()
@@ -189,4 +187,7 @@ public class MapController : MonoBehaviour
             }
         }
     }
+
+    public int getWidth() { return mapWidth; }
+    public int getHeight() { return mapHeight; }
 }
