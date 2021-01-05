@@ -59,7 +59,6 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Online assets
-/Assets/_/
 /Assets/Doozy/
 /Assets/Gizmos/
 /Assets/Plugins/
