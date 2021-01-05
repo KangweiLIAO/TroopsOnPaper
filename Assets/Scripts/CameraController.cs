@@ -5,7 +5,6 @@ using UnityEngine.Tilemaps;
 
 public class CameraController : MonoBehaviour
 {
-    private Camera camera;
     private float zoomFactor = 3f;          // Zoom distance for each scroll
     private float maxX, maxY;               // Boundaries of camera position
     private bool toCenter = true;           // Set camera position to center
@@ -22,12 +21,11 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         // Initialization
-        camera = Camera.main;
         map = GameObject.Find("MapController").GetComponent<MapController>();
         mapCenter = environmentMap.CellToWorld(new Vector3Int(map.mapWidth / 2, map.mapHeight / 2, 0))
             + new Vector3(0, 0, -10);        // -10 on z-axis to avoid the map out of the camera's view
         CalculateLimitation();
-        maxCamSize = camera.orthographicSize * Screen.height / Screen.width * 2.0f;
+        maxCamSize = Camera.main.orthographicSize * Screen.height / Screen.width * 2.0f;
         Debug.LogWarning("MinCam: " + minCamSize + " MaxCam: " + maxCamSize);
     }
 
@@ -44,7 +42,7 @@ public class CameraController : MonoBehaviour
         // Zoom control:
         float scrollInput = Input.GetAxis("Mouse ScrollWheel");
         if (Mathf.Abs(scrollInput) > 0.01f) {
-            camera.orthographicSize -= scrollInput * zoomFactor;
+            Camera.main.orthographicSize -= scrollInput * zoomFactor;
             Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize, minCamSize, maxCamSize);
         }
 

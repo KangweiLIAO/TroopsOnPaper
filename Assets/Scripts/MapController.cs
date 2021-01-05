@@ -11,8 +11,8 @@ public class MapController : MonoBehaviour
     private List<Tilemap> tileMaps = new List<Tilemap>(1);
     private int[,] mapMatrix;
 
-    public int width;       // To help display map width in inspector
-    public int height;      // To help display map height in inspector
+    public int width;           // To help display map width in inspector
+    public int height;          // To help display map height in inspector
     public int mapWidth { get; set; }
     public int mapHeight { get; set; }
 
@@ -21,7 +21,7 @@ public class MapController : MonoBehaviour
     [SerializeField] public bool useRandomSeed = true;
     [SerializeField] private TileBase highlightTile;
 
-    public Grid mapGrid;
+    public Grid mapGrid;        // Grid container that holds tilemaps
     public List<TileBase> oceanTiles, landTiles, mountainTiles;
 
     // Awake is called when the script is loaded
@@ -46,6 +46,7 @@ public class MapController : MonoBehaviour
     {
         mapWidth = width;
         mapHeight = height;
+        GenerateMap(tileMaps[0]);
     }
 
     // Update is called once per frame
@@ -69,24 +70,24 @@ public class MapController : MonoBehaviour
     /// <summary>
     /// Generate the map on a given tilemap
     /// </summary>
-    /// <param name="tileMap"></param>
-    void GenerateMap(Tilemap tileMap)
+    /// <param name="envMap"></param>
+    void GenerateMap(Tilemap envMap)
     {
         List<TileBase> tiles = new List<TileBase>();
         tiles.AddRange(oceanTiles);
         tiles.AddRange(landTiles);
         tiles.AddRange(mountainTiles);
 
-        tileMap.ClearAllTiles();
+        envMap.ClearAllTiles();                     // Clear all old tiles
 
         mapMatrix = new int[mapWidth, mapHeight];
-        RandomFillMap(0, oceanTiles.Count, tiles);    // fill the map randomly using seed
+        RandomFillMap(0, oceanTiles.Count, tiles);  // fill the map randomly using seed
 
         for (int x = 0; x < mapWidth; x++) {
             for (int y = 0; y < mapHeight; y++) {
                 // create random map base on map matrix
                 Vector3Int pos = new Vector3Int(x, y, 1);
-                tileMap.SetTile(pos, tiles[mapMatrix[x, y]]);
+                envMap.SetTile(pos, tiles[mapMatrix[x, y]]);
             }
         }
     }
