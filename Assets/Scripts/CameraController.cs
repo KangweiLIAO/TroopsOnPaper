@@ -26,7 +26,7 @@ public class CameraController : MonoBehaviour
             + new Vector3(0, 0, -10);        // -10 on z-axis to avoid the map out of the camera's view
         CalculateLimitation();
         maxCamSize = Camera.main.orthographicSize * Screen.height / Screen.width * 2.0f;
-        Debug.LogWarning("MinCam: " + minCamSize + " MaxCam: " + maxCamSize);
+        // Debug.LogWarning("MinCam: " + minCamSize + " MaxCam: " + maxCamSize);
     }
 
     // Update is called once per frame
@@ -76,6 +76,6 @@ public class CameraController : MonoBehaviour
     {
         maxX = environmentMap.CellToWorld(new Vector3Int(map.mapWidth, map.mapHeight, 0)).x;
         maxY = environmentMap.CellToWorld(new Vector3Int(map.mapWidth, map.mapHeight, 0)).y;
-        Debug.LogWarning("maxX: " + maxX + " maxY: " + maxY);
+        // Debug.LogWarning("maxX: " + maxX + " maxY: " + maxY);
     }
 }

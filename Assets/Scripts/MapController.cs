@@ -27,7 +27,7 @@ public class MapController : MonoBehaviour
     // Awake is called when the script is loaded
     void Awake()
     {
-        Debug.Log(mapGrid.transform.position);
+        Debug.Log("Grid pos: " + mapGrid.transform.position);
         Vector3Int worldCellPosition = mapGrid.WorldToCell(mapGrid.transform.position);
         foreach (var tilemap in mapGrid.GetComponentsInChildren<Tilemap>()) {
             // loop through tilemaps in grid object
