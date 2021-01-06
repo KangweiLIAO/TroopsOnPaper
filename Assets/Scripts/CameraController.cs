@@ -17,8 +17,8 @@ public class CameraController : MonoBehaviour
     public float minCamSize = 3f;           // Minimum value of zooming
     public Tilemap environmentMap;              // Environment Tilemap
 
-    // Start is called before the first frame update
-    void Start()
+    // Awake is called when the script instance is being loaded
+    void Awake()
     {
         // Initialization
         map = GameObject.Find("MapController").GetComponent<MapController>();
@@ -27,6 +27,12 @@ public class CameraController : MonoBehaviour
         CalculateLimitation();
         maxCamSize = Camera.main.orthographicSize * Screen.height / Screen.width * 2.0f;
         // Debug.LogWarning("MinCam: " + minCamSize + " MaxCam: " + maxCamSize);
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
     }
 
     // Update is called once per frame

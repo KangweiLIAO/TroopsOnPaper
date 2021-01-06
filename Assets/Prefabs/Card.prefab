@@ -676,6 +676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339154032986356594}
   - component: {fileID: 339154032986356597}
+  - component: {fileID: 4790938468345465458}
   m_Layer: 0
   m_Name: Card
   m_TagString: Card
@@ -752,6 +753,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4790938468345465458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339154032986356596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a3ebd4d4c170fd4a92820f4fbe1235c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &339154033280480814
 GameObject:
   m_ObjectHideFlags: 0

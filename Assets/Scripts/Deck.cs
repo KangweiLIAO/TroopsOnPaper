@@ -1,17 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
-public class GameController : MonoBehaviour
+public class Deck : MonoBehaviour
 {
-    private Player[] players;
-    private Card[] cards;
-
     // Awake is called when the script instance is being loaded
     private void Awake()
     {
-        
+
     }
 
     // Start is called before the first frame update
