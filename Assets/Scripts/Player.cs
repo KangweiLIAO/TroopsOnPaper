@@ -8,7 +8,9 @@ public class Player : MonoBehaviour
     public string playerName, roleName;
 
     // private vars:
+    private Hand hand;
     private Deck deck;
+    private Store resources;
 
     // Awake is called when the script instance is being loaded
     private void Awake()

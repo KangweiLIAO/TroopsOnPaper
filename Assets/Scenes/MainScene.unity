@@ -4533,13 +4533,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251edaa61a16b0d4e9dc9aed4376c749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 50
-  height: 30
-  landFillPercent: 50
   seed: 
   useRandomSeed: 1
+  landFillPercent: 50
   highlightTile: {fileID: 11400000, guid: eafdc3511178bbf44a1bab7d2b51e652, type: 2}
   mapGrid: {fileID: 240433854}
+  width: 50
+  height: 30
   oceanTiles:
   - {fileID: 11400000, guid: b8bd71b3d6e581845aabc60ade4616fe, type: 2}
   - {fileID: 11400000, guid: 174c2ac810662b54dafd3f9893d791f1, type: 2}

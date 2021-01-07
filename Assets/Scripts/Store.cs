@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Deck
+public class Store : Dictionary<string, int>
 {
-    private List<Card> cards;
-
-    public Deck()
+    public Store() : base()
     {
-
+        
     }
+
 }

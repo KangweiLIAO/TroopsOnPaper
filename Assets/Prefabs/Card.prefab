@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 387186886}
   - component: {fileID: 387186887}
   m_Layer: 0
-  m_Name: CoinPouch
+  m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 339154032006121193}
   - component: {fileID: 339154032006121174}
   m_Layer: 0
-  m_Name: GemFront
+  m_Name: Gem_Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 339154032037054507}
   - component: {fileID: 339154032037054504}
   m_Layer: 0
-  m_Name: GemBack
+  m_Name: Gem_Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 339154032053765682}
   - component: {fileID: 339154032053765683}
   m_Layer: 0
-  m_Name: Image
+  m_Name: Unit_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -765,6 +765,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a3ebd4d4c170fd4a92820f4fbe1235c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: 
+  gem: 
+  description: 
 --- !u!1 &339154033280480814
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,7 +864,7 @@ GameObject:
   - component: {fileID: 339154033342906358}
   - component: {fileID: 339154033342906357}
   m_Layer: 0
-  m_Name: TextObject
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1084,7 +1087,7 @@ GameObject:
   - component: {fileID: 339154033381525753}
   - component: {fileID: 339154033381525734}
   m_Layer: 0
-  m_Name: summary_background
+  m_Name: SummaryBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1166,7 +1169,7 @@ GameObject:
   - component: {fileID: 339154033463160711}
   - component: {fileID: 339154033463160708}
   m_Layer: 0
-  m_Name: Oval_frame
+  m_Name: Oval_Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
