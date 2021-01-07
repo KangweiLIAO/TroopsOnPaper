@@ -6,36 +6,36 @@ using CodeMonkey.Utils;
 
 public class MapController : MonoBehaviour
 {
-    private Tilemap highlightMap;
-    private Vector3Int prevTilePosition = new Vector3Int();
-    private List<Tilemap> tileMaps = new List<Tilemap>(1);
+    // private vars:
     private int[,] mapMatrix;
+    private Vector3Int prevTilePosition = new Vector3Int();
+    private Dictionary<string, Tilemap> tilemaps = new Dictionary<string, Tilemap>();
 
-    public int width;       // To help display map width in inspector
-    public int height;      // To help display map height in inspector
-    public int mapWidth { get; set; }
-    public int mapHeight { get; set; }
-
-    [SerializeField] [Range(0, 100)] private int landFillPercent = 50;
     [SerializeField] private string seed;
-    [SerializeField] public bool useRandomSeed = true;
+    [SerializeField] private bool useRandomSeed = true;
+    [SerializeField] [Range(0, 100)] private int landFillPercent = 50;
     [SerializeField] private TileBase highlightTile;
 
-    public Grid mapGrid;
+    // public vars:
+    public Grid mapGrid;        // Container that holds all tilemaps
+    public int width;           // To help displaying map width in inspector
+    public int height;          // To help displaying map height in inspector
+    public int mapWidth { get; set; }
+    public int mapHeight { get; set; }
     public List<TileBase> oceanTiles, landTiles, mountainTiles;
 
-    // Awake is called when the script is loaded
+    // Awake is called when the script instance is being loaded
     void Awake()
     {
-        Debug.Log(mapGrid.transform.position);
+        mapWidth = width;
+        mapHeight = height;
         Vector3Int worldCellPosition = mapGrid.WorldToCell(mapGrid.transform.position);
         foreach (var tilemap in mapGrid.GetComponentsInChildren<Tilemap>()) {
-            // loop through tilemaps in grid object
-            tileMaps.Add(tilemap);
+            // Loop through tilemaps in grid object:
+            tilemaps.Add(tilemap.name,tilemap);      // Save tilemaps in an array
             Debug.Log(tilemap.name + " size: " + tilemap.size);
-            if (tilemap.name == "HighlightMap") highlightMap = tilemap;
             if (tilemap.cellBounds.Contains(worldCellPosition)) {
-                // if tilemap is not empty
+                // If tilemap is not empty:
 
             }
         }
@@ -44,23 +44,22 @@ public class MapController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mapWidth = width;
-        mapHeight = height;
+        GenerateMap(tilemaps["EnvironmentMap"]);
     }
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0)) {
-            GenerateMap(tileMaps[0]);
+            GenerateMap(tilemaps["EnvironmentMap"]);
             // DisplayMapCoord(tileMaps[0], Color.red);
         }
         // Highlighting the tile at mouse pos
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3Int tileCoordinate = highlightMap.WorldToCell(mouseWorldPos);
+        Vector3Int tileCoordinate = tilemaps["HighlightMap"].WorldToCell(mouseWorldPos);
         if (tileCoordinate != prevTilePosition) {
-            highlightMap.SetTile(prevTilePosition, null);
-            highlightMap.SetTile(tileCoordinate, highlightTile);
+            tilemaps["HighlightMap"].SetTile(prevTilePosition, null);
+            tilemaps["HighlightMap"].SetTile(tileCoordinate, highlightTile);
             prevTilePosition = tileCoordinate;
             // Debug.Log("Mouse at " + tileCoordinate);
         }
@@ -69,24 +68,24 @@ public class MapController : MonoBehaviour
     /// <summary>
     /// Generate the map on a given tilemap
     /// </summary>
-    /// <param name="tileMap"></param>
-    void GenerateMap(Tilemap tileMap)
+    /// <param name="envMap"></param>
+    void GenerateMap(Tilemap envMap)
     {
         List<TileBase> tiles = new List<TileBase>();
         tiles.AddRange(oceanTiles);
         tiles.AddRange(landTiles);
         tiles.AddRange(mountainTiles);
 
-        tileMap.ClearAllTiles();
+        envMap.ClearAllTiles();                     // Clear all old tiles
 
         mapMatrix = new int[mapWidth, mapHeight];
-        RandomFillMap(0, oceanTiles.Count, tiles);    // fill the map randomly using seed
+        RandomFillMap(0, oceanTiles.Count, tiles);  // fill the map randomly using seed
 
         for (int x = 0; x < mapWidth; x++) {
             for (int y = 0; y < mapHeight; y++) {
                 // create random map base on map matrix
                 Vector3Int pos = new Vector3Int(x, y, 1);
-                tileMap.SetTile(pos, tiles[mapMatrix[x, y]]);
+                envMap.SetTile(pos, tiles[mapMatrix[x, y]]);
             }
         }
     }
@@ -183,8 +182,8 @@ public class MapController : MonoBehaviour
             // loop through tiles in tileMaps[0]
             List<Vector3> tileWorldLocations = new List<Vector3>();
             Vector3Int localPlace = new Vector3Int(pos.x, pos.y, pos.z);
-            Vector3 place = tileMaps[0].CellToWorld(localPlace);
-            if (tileMaps[0].HasTile(localPlace)) {
+            Vector3 place = tilemaps["EnvironmentMap"].CellToWorld(localPlace);
+            if (tilemaps["EnvironmentMap"].HasTile(localPlace)) {
                 tileWorldLocations.Add(place);
                 TextMesh txt = UtilsClass.CreateWorldText(pos.x.ToString() + ", " + pos.y.ToString(), map.transform,
                     place, fontSize, color, TextAnchor.MiddleCenter);

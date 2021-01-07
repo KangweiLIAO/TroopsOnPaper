@@ -1,17 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
-public class GameController : MonoBehaviour
+public class Player : MonoBehaviour
 {
-    private Player[] players;
-    private Card[] cards;
+    // public vars:
+    public string playerName, roleName;
+
+    // private vars:
+    private Hand hand;
+    private Deck deck;
+    private Store resources;
 
     // Awake is called when the script instance is being loaded
     private void Awake()
     {
-        
+
     }
 
     // Start is called before the first frame update

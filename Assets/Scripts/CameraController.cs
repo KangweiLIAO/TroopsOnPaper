@@ -5,7 +5,6 @@ using UnityEngine.Tilemaps;
 
 public class CameraController : MonoBehaviour
 {
-    private Camera camera;
     private float zoomFactor = 3f;          // Zoom distance for each scroll
     private float maxX, maxY;               // Boundaries of camera position
     private bool toCenter = true;           // Set camera position to center
@@ -18,17 +17,22 @@ public class CameraController : MonoBehaviour
     public float minCamSize = 3f;           // Minimum value of zooming
     public Tilemap environmentMap;              // Environment Tilemap
 
-    // Start is called before the first frame update
-    void Start()
+    // Awake is called when the script instance is being loaded
+    void Awake()
     {
         // Initialization
-        camera = Camera.main;
         map = GameObject.Find("MapController").GetComponent<MapController>();
         mapCenter = environmentMap.CellToWorld(new Vector3Int(map.mapWidth / 2, map.mapHeight / 2, 0))
             + new Vector3(0, 0, -10);        // -10 on z-axis to avoid the map out of the camera's view
         CalculateLimitation();
-        maxCamSize = camera.orthographicSize * Screen.height / Screen.width * 2.0f;
-        Debug.LogWarning("MinCam: " + minCamSize + " MaxCam: " + maxCamSize);
+        maxCamSize = Camera.main.orthographicSize * Screen.height / Screen.width * 2.0f;
+        // Debug.LogWarning("MinCam: " + minCamSize + " MaxCam: " + maxCamSize);
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
     }
 
     // Update is called once per frame
@@ -44,7 +48,7 @@ public class CameraController : MonoBehaviour
         // Zoom control:
         float scrollInput = Input.GetAxis("Mouse ScrollWheel");
         if (Mathf.Abs(scrollInput) > 0.01f) {
-            camera.orthographicSize -= scrollInput * zoomFactor;
+            Camera.main.orthographicSize -= scrollInput * zoomFactor;
             Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize, minCamSize, maxCamSize);
         }
 
@@ -78,6 +82,6 @@ public class CameraController : MonoBehaviour
     {
         maxX = environmentMap.CellToWorld(new Vector3Int(map.mapWidth, map.mapHeight, 0)).x;
         maxY = environmentMap.CellToWorld(new Vector3Int(map.mapWidth, map.mapHeight, 0)).y;
-        Debug.LogWarning("maxX: " + maxX + " maxY: " + maxY);
+        // Debug.LogWarning("maxX: " + maxX + " maxY: " + maxY);
     }
 }
