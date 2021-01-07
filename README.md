@@ -1,2 +1,6 @@
 # Troops On Paper
-A 2D top down strategy card game using Unity engine
+### Introduction
+> This is a 2D top down strategy card game developed using Unity Engine.
+
+> **Target Platform**: Windows
+---
