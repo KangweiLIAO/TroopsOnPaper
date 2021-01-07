@@ -5451,6 +5451,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 339154032006121174, guid: 71ce9bc7092802e45bb87820b83c0635,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f388cec8b742fd43a8fb104245b2e1e,
+        type: 3}
     - target: {fileID: 339154032986356594, guid: 71ce9bc7092802e45bb87820b83c0635,
         type: 3}
       propertyPath: m_RootOrder
@@ -5510,6 +5516,57 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 339154033463160708, guid: 71ce9bc7092802e45bb87820b83c0635,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f6b2dda0d9378894aa657f55529dcf84,
+        type: 3}
+    - target: {fileID: 339154033463160708, guid: 71ce9bc7092802e45bb87820b83c0635,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790938468345465458, guid: 71ce9bc7092802e45bb87820b83c0635,
+        type: 3}
+      propertyPath: icon
+      value: chaos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790938468345465458, guid: 71ce9bc7092802e45bb87820b83c0635,
+        type: 3}
+      propertyPath: title
+      value: worker
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790938468345465458, guid: 71ce9bc7092802e45bb87820b83c0635,
+        type: 3}
+      propertyPath: gemBack
+      value: normal
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790938468345465458, guid: 71ce9bc7092802e45bb87820b83c0635,
+        type: 3}
+      propertyPath: gemFront
+      value: white
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790938468345465458, guid: 71ce9bc7092802e45bb87820b83c0635,
+        type: 3}
+      propertyPath: showBack
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790938468345465458, guid: 71ce9bc7092802e45bb87820b83c0635,
+        type: 3}
+      propertyPath: cardFrame
+      value: brass
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790938468345465458, guid: 71ce9bc7092802e45bb87820b83c0635,
+        type: 3}
+      propertyPath: ovalFrame
+      value: brass
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790938468345465458, guid: 71ce9bc7092802e45bb87820b83c0635,
+        type: 3}
+      propertyPath: description
+      value: This is a worker
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71ce9bc7092802e45bb87820b83c0635, type: 3}
