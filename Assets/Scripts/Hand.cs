@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Hand
 {
-    public List<Card> cards;
+    public static List<Card> cards;
 
     public Hand()
     {

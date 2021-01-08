@@ -9,11 +9,16 @@ using TMPro;
 public class Card : MonoBehaviour
 {
     public bool showBack = false;
-    public string title = "Default", description = "Summary";
+    public string title = "Default", description = "Default";
+    // Holds the assets type of resources:
+    public string cardFrame = "brass",
+                  gemFront = "white",
+                  gemBack = "normal",
+                  icon = "chaos";
 
+    private GameObject front, back;
     private Dictionary<string, Sprite> sprites;             // Holds sprites for card front, card back, gem front, gem back, icon and unit image
-    [SerializeField] private string cardFrame, gemFront, gemBack, icon;      // Holds the address of resources
-
+    
     // Awake is called when the script instance is being loaded
     private void Awake()
     {
@@ -53,11 +58,11 @@ public class Card : MonoBehaviour
                         buff.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = sprites["Icon"];     // Set the icon
                     }
                 }
-                if (showBack) face.SetActive(false);
+                front = face;
             } else {
                 // card back
                 face.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = sprites["GemBack"];  // Set the gem at the back
-                if (showBack) face.SetActive(true);
+                back = face;
             }
         }
     }
@@ -65,6 +70,12 @@ public class Card : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (showBack) {
+            front.SetActive(false);
+            back.SetActive(true);
+        } else {
+            front.SetActive(true);
+            back.SetActive(false);
+        }
     }
 }

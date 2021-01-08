@@ -5,13 +5,13 @@ using UnityEngine.Tilemaps;
 
 public class GameController : MonoBehaviour
 {
-    private Player[] players;
-    private Card[] cards;
+    public static int playerNum = 1;
+    private static List<Player> players;
 
     // Awake is called when the script instance is being loaded
     private void Awake()
     {
-        
+        players = new List<Player>();
     }
 
     // Start is called before the first frame update

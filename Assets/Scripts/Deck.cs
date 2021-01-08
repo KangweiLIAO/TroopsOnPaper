@@ -4,10 +4,20 @@ using UnityEngine;
 
 public class Deck
 {
-    private List<Card> cards;
+    private static Queue<Card> cards;
 
     public Deck()
     {
+        cards = new Queue<Card>();
+    }
 
+    public Card Draw()
+    {
+        return cards.Dequeue();
+    }
+
+    public int Count()
+    {
+        return cards.Count;
     }
 }
